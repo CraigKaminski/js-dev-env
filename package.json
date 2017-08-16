@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "JavaScript development environment",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "prestart": "node buildScripts/startMessage.js",
+    "start": "npm-run-all --parallel security-check open:src",
+    "open:src": "node buildScripts/srcServer.js",
+    "security-check": "nsp check"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CraigKaminski/js-dev-env.git"
