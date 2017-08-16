@@ -12,6 +12,11 @@ JavaScript Development Environment
 * [Module Formats](#module-formats)
 * [Bundler](#bundler)
 * [linter](#linter)
+* [Testing Framework](#testing-framework)
+* [Assertion Library](#assertion-library)
+* [Helper Library](#helper-library)
+* [Where to Run Tests](#where-to-run-tests)
+* [Continuous Integration](#continuous-integration)
 
 ## Editors
 * Atom
@@ -97,3 +102,35 @@ import jQuery from 'jquery';
 * JSLint
 * JSHint
 * *ESLint*
+
+## Testing Framework
+* *Mocha*
+* Jasmine
+* Tape
+* QUnit
+* AVA
+* Jest
+
+## Assertion Library
+* *Chai*
+
+## Helper Library
+* *JSDom*
+* *Cheerio*
+
+## Where to Run Tests
+* Browser
+  * Karma
+  * Testem
+* Headless Browser
+  * PhantomJS
+* In-memory DOM
+  * *JSDOM*
+
+## Continuous Integration
+* *Travis*
+* *Appveyor*
+* Jenkins
+* CircleCI
+* Semaphore
+* SnapCI
