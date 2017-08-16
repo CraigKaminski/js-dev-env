@@ -11,6 +11,7 @@ JavaScript Development Environment
 * [Transpiling](#transpiling)
 * [Module Formats](#module-formats)
 * [Bundler](#bundler)
+* [linter](#linter)
 
 ## Editors
 * Atom
@@ -91,3 +92,8 @@ import jQuery from 'jquery';
 * *Webpack*
 * Rollup
 * JSPM
+
+## Linter
+* JSLint
+* JSHint
+* *ESLint*
