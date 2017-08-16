@@ -7,6 +7,8 @@ JavaScript Development Environment
 * [When to Run Security Check](#when-to-run-security-check)
 * [Development Webservers](#development-webservers)
 * [Sharing Work-in-progress](#sharing-work-in-progress)
+* [Automation](#automation)
+* [Traspiling](#transpiling)
 
 ## Editors
 * Atom
@@ -50,3 +52,13 @@ EditorConfig while many others have plugins.
 * ngrog
 * Surge
 * now
+
+## Automation
+* Grunt
+* Gulp
+* *npm Scripts*
+
+## Transpiling
+* *Babel*
+* TypeScript
+* Elm
