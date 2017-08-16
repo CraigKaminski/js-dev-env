@@ -8,7 +8,9 @@ JavaScript Development Environment
 * [Development Webservers](#development-webservers)
 * [Sharing Work-in-progress](#sharing-work-in-progress)
 * [Automation](#automation)
-* [Traspiling](#transpiling)
+* [Transpiling](#transpiling)
+* [Module Formats](#module-formats)
+* [Bundler](#bundler)
 
 ## Editors
 * Atom
@@ -62,3 +64,30 @@ EditorConfig while many others have plugins.
 * *Babel*
 * TypeScript
 * Elm
+
+## Module Formats
+* IIFE
+```javascript
+(function() {
+  //my code here
+})();
+```
+* AMD
+```javascript
+define(['jq'], function(jq) {});
+```
+* CommonJS
+```javascript
+var jquery = require('jquery');
+```
+* ES6 Module
+```javascript
+import jQuery from 'jquery';
+```
+
+## Bundler
+* RequireJS
+* Browserify
+* *Webpack*
+* Rollup
+* JSPM
