@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 74867420,
+      "firstName": "Adele",
+      "lastName": "Kutch",
+      "email": "Kaitlin.Ullrich@hotmail.com"
+    },
+    {
+      "id": 42426370,
+      "firstName": "Rafaela",
+      "lastName": "Ruecker",
+      "email": "Hector.Bashirian@yahoo.com"
+    },
+    {
+      "id": 54345186,
+      "firstName": "Lora",
+      "lastName": "Wolff",
+      "email": "Estrella_Hartmann16@yahoo.com"
+    },
+    {
+      "id": 62529611,
+      "firstName": "Miller",
+      "lastName": "Boyle",
+      "email": "Nedra.Carroll43@gmail.com"
+    }
+  ]
+}

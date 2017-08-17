@@ -17,6 +17,9 @@ JavaScript Development Environment
 * [Helper Library](#helper-library)
 * [Where to Run Tests](#where-to-run-tests)
 * [Continuous Integration](#continuous-integration)
+* [HTTP Call Library](#http-call-library)
+* [Mock HTTP](#mock-http)
+* [Steps for Mocking HTTP](#steps-for-mocking-http)
 
 ## Editors
 * Atom
@@ -134,3 +137,42 @@ import jQuery from 'jquery';
 * CircleCI
 * Semaphore
 * SnapCI
+
+## HTTP Call Library
+* Node
+  * http
+  * request
+* Browser
+  * XMLHttpRequest
+  * jQuery
+  * Framework-based
+  * *Fetch*
+    * [window.fetch polyfill](https://github.com/github/fetch)
+    * [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch)
+* Node & Browser
+  * [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch)
+  * xhr
+  * SuperAgent
+  * Axios
+
+Use [Polyfill.io](https://polyfill.io/v2/docs/) to inly include polyfills to browsers that need it.
+
+## Mock HTTP
+* Nock
+* Static JSON
+* Create development webserver
+  * api-mock
+  * JSON server
+  * JSON Schema faker
+  * Browsersync
+  * Express
+
+## Steps for Mocking HTTP
+  1. Declare you schema
+    * JSON Schema Faker
+  2. Generate Random Data
+    * faker.js
+    * chance.js
+    * randexp.js
+  3. Server Data via API
+    * JSON Server
