@@ -129,7 +129,7 @@ import jQuery from 'jquery';
 
 ## Continuous Integration
 * *Travis*
-* *Appveyor*
+* Appveyor
 * Jenkins
 * CircleCI
 * Semaphore
