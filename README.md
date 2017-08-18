@@ -20,6 +20,7 @@ JavaScript Development Environment
 * [HTTP Call Library](#http-call-library)
 * [Mock HTTP](#mock-http)
 * [Steps for Mocking HTTP](#steps-for-mocking-http)
+* [Error Logging](#error-logging)
 
 ## Editors
 * Atom
@@ -162,8 +163,8 @@ Use [Polyfill.io](https://polyfill.io/v2/docs/) to inly include polyfills to bro
 * Static JSON
 * Create development webserver
   * api-mock
-  * JSON server
-  * JSON Schema faker
+  * *JSON server*
+  * *JSON Schema faker*
   * Browsersync
   * Express
 
@@ -176,3 +177,9 @@ Use [Polyfill.io](https://polyfill.io/v2/docs/) to inly include polyfills to bro
     * randexp.js
   3. Server Data via API
     * JSON Server
+
+## Error Logging
+  * TrackJS
+  * Sentry
+  * New Relic
+  * Raygun
