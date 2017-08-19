@@ -21,6 +21,9 @@ JavaScript Development Environment
 * [Mock HTTP](#mock-http)
 * [Steps for Mocking HTTP](#steps-for-mocking-http)
 * [Error Logging](#error-logging)
+* [Cloud Hosting](#cloud-hosting)
+* [Development Environment Updates](#development-environment-updates)
+* [Inspiration](#inspiration)
 
 ## Editors
 * Atom
@@ -183,3 +186,30 @@ Use [Polyfill.io](https://polyfill.io/v2/docs/) to inly include polyfills to bro
   * Sentry
   * New Relic
   * Raygun
+
+## Cloud Hosting
+  * Amazon Web Services
+  * Microsoft Azure
+  * *Heroku*
+  * Firebase
+  * Google Cloud Platform
+  * Netlify
+  * GitHub Pages
+  * *Surge*
+
+## Development Environment Updates
+  * Yeoman
+    1. Commit updates to Yeoman generator
+    2. Scaffold over the existing project
+    3. Resolve conflicts manually
+  * Github
+    1. Host on GitHub
+    2. Fork starter kit for new project
+    3. Pull changes from master
+  * npm
+    1. Encapsulate kit in npm package
+    2. Update npm package to receive latest
+
+## Inspiration
+  * [React Starter Projects](http://andrewhfarmer.com/starter-project)
+  * [AngularJS Starter Projects](https://github.com/gianarb/awesome-angularjs)
